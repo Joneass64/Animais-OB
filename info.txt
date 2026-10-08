@@ -1,0 +1,5 @@
+frontend é a parte visual
+
+backend é a parte do python
+
+database é o banco de dados
