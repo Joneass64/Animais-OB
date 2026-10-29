@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Animalia | Fauna de Ouro Branco</title>
 </head>
 <body>
-    <h1>Fauna OB</h1>
-    <h2>O site da fauna de Ouro Branco</h2>
-    <a href="login.html">Entrar</a><br>
-    <input type="text" id="pesquisa" placeholder="PESQUISAR"><br>
-
+    <header class="cabecalho">
+        <button class="menu" type="button" aria-label="Abrir menu">☰</button>
+        <h1 class="marca">Animalia</h1>
+        <a class="entrar" href="login.html">Entrar</a>
+    </header>
+    <main class="conteudo">
+        <h2 class="subtitulo">O site da fauna de Ouro Branco</h2>
+        <input class="pesquisa" type="search" id="pesquisa" placeholder="Pesquisar animais..." aria-label="Pesquisar animais">
+        <section class="animais" aria-label="Animais">
+            <article class="animal">
+                <div class="animal-imagem" role="img" aria-label="Pássaro">🐦</div>
+                <h3>Pássaros</h3>
+                <p>Conheça as aves encontradas na região de Ouro Branco.</p>
+            </article>
+            <article class="animal">
+                <div class="animal-imagem" role="img" aria-label="Mamífero">🦫</div>
+                <h3>Mamíferos</h3>
+                <p>Descubra alguns dos mamíferos que vivem na nossa região.</p>
+            </article>
+            <article class="animal">
+                <div class="animal-imagem" role="img" aria-label="Sapo">🐸</div>
+                <h3>Anfíbios</h3>
+                <p>Saiba mais sobre sapos e outros anfíbios da fauna local.</p>
+            </article>
+        </section>
+    </main>
+    <footer class="rodape">Animalia — Conhecendo e valorizando a fauna de Ouro Branco.</footer>
 </body>
 </html>
